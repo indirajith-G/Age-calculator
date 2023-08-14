@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age-Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="index.css"/>
+
+    
+
+</head>
+<body>
+    
+    <div class="show-container" id="show-container">
+        <p>To Calculate Your Age </p>
+        <button class="glow-on-hover" id="btn"onclick="show()">Click me</button>
+    </div>
+    <div class="container" id="age-container">
+        <form >
+            <div class="base-container">
+                    <h4>Age Calculator</h4>
+                <div class="input-container">
+                    <p class="title">Date</p>
+                    <input type="text" id="date" placeholder="DD" min="1" max="2" required>
+                </div>
+                <div class="input-container">
+                    <p class="title">Month</p>
+                    <input type="text" id="month" placeholder="MM" min="1" max="2" required>
+                </div>
+                <div class="input-container">
+                    <p class="title">Year</p>
+                    <input type="text" id="year" placeholder="YYYY" min="0" max="4" required>
+                </div>
+                <div id="Error" class="error"></div><br>
+
+                <div class="input-container">
+                    <input type="button" name="submit" value="submit" onclick="age()"/>
+                </div>
+            </div>
+            <div id="age"></div>
+        </form>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+  <script src="script.js"></script>
+</body>
+</html>
