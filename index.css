@@ -113,7 +113,7 @@ input[type="text"]:focus{
 }
 
 input[type="button"]{
-    width:150px;
+    width:180px;
     outline: none;
     border: none;
     border-radius:100px;
